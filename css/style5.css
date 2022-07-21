@@ -58,27 +58,18 @@ body {
     font-weight: bold;
     margin-bottom: 4px;
 }
-.input {
-    background-color: var(--text-input-field);
-    border: none;
-    border-radius: 8px;
-    height: 30px;
+
+.value {
+    color: var(--very-light-pink);
     font-size: var(--md);
-    padding: 6px;
-    margin-bottom: 12px;
+    margin: 8px 0  32px 0;
 }
 
-.input-name,
-.input-email,
-.input-password {
-    margin-bottom: 22px;
-}
-
-.primary-button {
-    background-color: var(--hospital-green);
-    border: none;
+.secondary-button {
+    background-color: var(--white);
+    border: 1px solid var(--hospital-green);
     border-radius: 8px;
-    color: var(--white);
+    color: var(--hospital-green);
     width: 100%;
     cursor: pointer;
     font-size: var(--md);
